@@ -123,7 +123,7 @@ function BlobToFileCreator(blobArray){
 
 <main class="py-5">
   <div class="h-full w-full grid grid-cols-1 gap-5 justify-items-center">
-    <input type="file" name="" class="border rounded-full cursor-pointer" multiple bind:files={files}>
+    <input type="file" name="" class="border rounded-full cursor-pointer" accept="image/*" multiple bind:files={files}>
     <div class="space-y-2">
       <label class="flex items-center space-x-2">
         <!-- <input class="radio" type="radio" name="radio-direct" value="Size" bind:group={optionSelect} on:change={() => updateOptionSelect("Size")} /> -->
