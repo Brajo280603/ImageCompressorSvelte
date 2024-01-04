@@ -70,6 +70,7 @@ declare module '$env/static/private' {
 	export const npm_lifecycle_script: string;
 	export const npm_node_execpath: string;
 	export const npm_package_dependencies_browser_image_compression: string;
+	export const npm_package_dependencies_jszip: string;
 	export const npm_package_devDependencies_autoprefixer: string;
 	export const npm_package_devDependencies_postcss: string;
 	export const npm_package_devDependencies_svelte: string;
@@ -89,7 +90,6 @@ declare module '$env/static/private' {
 	export const npm_package_type: string;
 	export const npm_package_version: string;
 	export const NUMBER_OF_PROCESSORS: string;
-	export const OLDPWD: string;
 	export const OneDrive: string;
 	export const ORIGINAL_PATH: string;
 	export const ORIGINAL_TEMP: string;
@@ -210,6 +210,7 @@ declare module '$env/dynamic/private' {
 		npm_lifecycle_script: string;
 		npm_node_execpath: string;
 		npm_package_dependencies_browser_image_compression: string;
+		npm_package_dependencies_jszip: string;
 		npm_package_devDependencies_autoprefixer: string;
 		npm_package_devDependencies_postcss: string;
 		npm_package_devDependencies_svelte: string;
@@ -229,7 +230,6 @@ declare module '$env/dynamic/private' {
 		npm_package_type: string;
 		npm_package_version: string;
 		NUMBER_OF_PROCESSORS: string;
-		OLDPWD: string;
 		OneDrive: string;
 		ORIGINAL_PATH: string;
 		ORIGINAL_TEMP: string;

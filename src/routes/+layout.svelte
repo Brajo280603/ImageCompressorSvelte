@@ -14,7 +14,7 @@
 				href="https://github.com/Brajo280603/ImageCompressorNODE"
 				target="_blank"
 			>
-				<img src="/github.svg" alt="">
+				<img src="/github.svg" alt="" class="dark:invert">
 			</a>
 				<strong class="text-xl uppercase">image Compressor</strong>
 			</svelte:fragment>
